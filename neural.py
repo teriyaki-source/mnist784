@@ -13,8 +13,6 @@ class ReLU_Classification_Neural_Network:
     TO INPUT own weights + biases:
     TODO"""
     def __init__(self):
-        # TODO change this later to be variable based on user input
-        # TODO make arrays of w, b values instead
         # Must be set using add_training_data in order to train the model, otherwise use TODO to set the weights
         self.weights = []
         self.biases = []

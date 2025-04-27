@@ -3,6 +3,9 @@ import numpy as np
 import random
 import matplotlib.pyplot as plt
 
+# This file is not related to the mnist dataset, but is used to generate images of circles with bounding boxes.
+# could be useful for training a neural network to detect circles in images.
+
 def generate_circle_image(img_size=128, min_radius=10, max_radius=30, n_circles=1):
     img = np.zeros((img_size, img_size), dtype=np.uint8)
     boxes = []
